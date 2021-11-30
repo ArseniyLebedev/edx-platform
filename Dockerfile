@@ -42,6 +42,9 @@ RUN apt-get update && \
     pkg-config \
     python3-dev \
     python3-venv \
+    libsasl2-dev \
+    libldap2-dev \
+    python-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN locale-gen en_US.UTF-8
